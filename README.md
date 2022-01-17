@@ -28,5 +28,10 @@ Three areas where code lives
   - The files git knows about!
   - Containt all of your commits
 
+Stashing 
+  - Save un-commited work (temporery code)
+  - The stash is safe from destructive operations
+
+
 
 
