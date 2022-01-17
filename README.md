@@ -16,15 +16,17 @@ In Git, a commit is a snapshot of repo at a specific point in time. there's thre
 - Blob
 - Commit
 
-ex:
-```
-➜  echo 'Hello World!' > hello.txt
-➜  git add hello.txt
-➜  git commit -m "Initial Commit" 
-[main 08fcff8] Initial Commit
- 1 file changed, 1 insertion(+)
- create mode 100644 hello.txt
-```
-
 ## Git Areas and Stashing
-...
+Three areas where code lives
+- Working area
+  - The files in your working area that are also not in the staging area are not handled by git
+  - Also called untracked filed 
+- Staging area
+  - What files are going to be part of the next commit
+  - The staging area is how git knows what will change between the current commit and the next commit 
+- Repository
+  - The files git knows about!
+  - Containt all of your commits
+
+
+
