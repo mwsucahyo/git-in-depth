@@ -1,3 +1,3 @@
 # git-in-depth
 
-##Git Fundations
+## Git Fundations
