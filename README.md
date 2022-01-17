@@ -1,2 +1,2 @@
 # git-in-depth
-Week - 1
+Week #1
