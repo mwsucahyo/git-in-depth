@@ -1,2 +1,3 @@
 # git-in-depth
-Week #1
+
+##Git Fundations
