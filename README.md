@@ -18,13 +18,12 @@ In Git, a commit is a snapshot of repo at a specific point in time. there's thre
 
 ex:
 ```
-➜  git-in-depth git:(main) echo 'Hello World!' > hello.txt
-➜  git-in-depth git:(main) ✗ git add hello.txt
-➜  git-in-depth git:(main) ✗ git commit -m "Initial Commit" 
+➜  echo 'Hello World!' > hello.txt
+➜  git add hello.txt
+➜  git commit -m "Initial Commit" 
 [main 08fcff8] Initial Commit
  1 file changed, 1 insertion(+)
  create mode 100644 hello.txt
-➜  git-in-depth git:(main) 
 ```
 
 ## Git Areas and Stashing
