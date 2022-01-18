@@ -161,6 +161,29 @@ $ git stash clear
 - Branches
 - HEAD
 
+### Tag
+Tags are ref's that point to specific points in Git history. Tagging is generally used to capture a point in history that is used for a marked version release (i.e. v1.0.1).
+
+#### Common Options
+
+To create a new tag execute the following command:
+```
+$ git tag <tagname>
+```
+
+### Annotated Tags
+Annotated tags are stored as full objects in the Git database. To reiterate, They store extra meta data such as: the tagger name, email, and date
+
+#### Common Options
+
+To create a new annotated tag execute the following command:
+```
+$ git tag -a v1.4
+```
+
+To create a new tag execute the following command:
+git tag <tagname>
+
 ### Branch
 - A branch  is just a pointer to a particular commit
 - The pointer of the current branch changes as new commits are made
