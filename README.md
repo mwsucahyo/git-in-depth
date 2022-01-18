@@ -102,7 +102,7 @@ Git Stash is very helpful when there is a condition where we are working on some
   - Save un-commited work (temporery code)
   - The stash is safe from destructive operations
 
-#### Git stash basic use
+#### Common Options
 
 Stash changes
 ```
@@ -197,6 +197,15 @@ List all remote branches.
 $ git branch -a
 ```
 ### Head
-- Head is how git knows what branch you're currently on, ant what the next parent will be
+Git HEADs can represent a particular commit in the history of a project. This is because Git lets you check out different points in a repository’s history to view how your project has evolved.
 
+#### Common Options
+You can find out what HEAD you are viewing by opening the .git/HEAD file in your repository
+```
+$ cat .git/HEAD
+```
+The cat command shows us the contents of our HEAD configuration file:
+```
+ref: refs/heads/main
+```
 
