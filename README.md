@@ -153,3 +153,50 @@ Delete all stash
 ```
 $ git stash clear
 ```
+
+## References, Commits, Branches
+
+### Three types of Git References
+- Tags & Annotated Tags
+- Branches
+- HEAD
+
+### Branch
+- A branch  is just a pointer to a particular commit
+- The pointer of the current branch changes as new commits are made
+
+#### Common Options
+
+List all of the branches in your repository. This is synonymous with git branch --list
+```
+$ git branch
+```
+
+Create a new branch called ＜branch＞. This does not check out the new branch
+```
+$ git branch <branch>
+```
+
+Delete the specified branch. This is a “safe” operation in that Git prevents you from deleting the branch if it has unmerged changes.
+```
+$ git branch -d <branch>
+```
+
+Force delete the specified branch, even if it has unmerged changes. This is the command to use if you want to permanently throw away all of the commits associated with a particular line of development.
+```
+$ git branch -D <branch>
+```
+
+Rename the current branch to ＜branch＞
+```
+$ git branch -m <branch>
+```
+
+List all remote branches. 
+```
+$ git branch -a
+```
+### Head
+- Head is how git knows what branch you're currently on, ant what the next parent will be
+
+
