@@ -97,6 +97,8 @@ Three areas where code lives
   - Containt all of your commits
 
 Stashing 
+Git Stash is very helpful when there is a condition where we are working on something but it hasn't been finished yet it turns out that there is a bug or other feature with a higher priority, because with git stash we can save our code temporarily so that we can reuse it at any time.
+
   - Save un-commited work (temporery code)
   - The stash is safe from destructive operations
 
