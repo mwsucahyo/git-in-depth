@@ -63,7 +63,7 @@ tree .git/objects
 19 directories, 19 files
 ```
 
-# Print The Type
+### Print The Type
 ```
 ➜  git cat-file -t 06e15 
 tree
@@ -72,7 +72,7 @@ blob
 ➜  git cat-file -t 08fcff
 commit
 ```
-# Print The Contents
+### Print The Contents
 ```
 git cat-file -p 08fcff
 tree 839eae196afce3d3440989a2e68fadb86f184566
@@ -85,7 +85,7 @@ Initial Commit
 
 
 ## Git Areas and Stashing
-Three areas where code lives
+### Three areas where code lives
 - Working area
   - The files in your working area that are also not in the staging area are not handled by git
   - Also called untracked filed 
@@ -96,7 +96,7 @@ Three areas where code lives
   - The files git knows about!
   - Containt all of your commits
 
-Stashing 
+### Stashing 
 Git Stash is very helpful when there is a condition where we are working on something but it hasn't been finished yet it turns out that there is a bug or other feature with a higher priority, because with git stash we can save our code temporarily so that we can reuse it at any time.
 
   - Save un-commited work (temporery code)
