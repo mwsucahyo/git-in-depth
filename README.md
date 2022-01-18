@@ -102,6 +102,29 @@ Git Stash is very helpful when there is a condition where we are working on some
   - Save un-commited work (temporery code)
   - The stash is safe from destructive operations
 
+#### Git stash basic use
 
+Stash changes
+```$ git stash```
 
+List changes
+```$ git stash list```
+
+Show the contents
+```$ git stash show stash@{0}```
+
+Apply the last stash
+```$ git stash apply```
+
+Apply a specific stash
+```$ git stash apply stash@{0}```
+
+Name stashes
+```$ git stash save "WIP: making progress on foo"```
+
+Start a new branch from a stash
+```$ git stash branch <optional stash name>```
+
+Grab a single file from a stash
+```$ git checkout <stash name> -- <filename>```
 
