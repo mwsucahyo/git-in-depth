@@ -16,7 +16,7 @@ In Git, a commit is a snapshot of repo at a specific point in time. there's thre
 - Blob
 - Commit
 
-Use this command line .git/objects to see the directory
+Use this command line ```tree .git/objects``` to see the directory
 
 ```
 tree .git/objects     
@@ -108,23 +108,36 @@ Stash changes
 ```$ git stash```
 
 List changes
-```$ git stash list```
+```
+$ git stash list
+```
 
 Show the contents
-```$ git stash show stash@{0}```
+```
+$ git stash show stash@{0}
+```
 
 Apply the last stash
-```$ git stash apply```
+```
+$ git stash apply
+```
 
 Apply a specific stash
-```$ git stash apply stash@{0}```
+```
+$ git stash apply stash@{0}
+```
 
 Name stashes
-```$ git stash save "WIP: making progress on foo"```
+```
+$ git stash save "WIP: making progress on foo"
+```
 
 Start a new branch from a stash
-```$ git stash branch <optional stash name>```
+```
+$ git stash branch <optional stash name>
+```
 
 Grab a single file from a stash
-```$ git checkout <stash name> -- <filename>```
-
+```
+$ git checkout <stash name> -- <filename>
+```
