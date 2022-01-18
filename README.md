@@ -105,7 +105,9 @@ Git Stash is very helpful when there is a condition where we are working on some
 #### Git stash basic use
 
 Stash changes
-```$ git stash```
+```
+$ git stash
+```
 
 List changes
 ```
@@ -127,17 +129,27 @@ Apply a specific stash
 $ git stash apply stash@{0}
 ```
 
-Name stashes
+Stashing all files
 ```
-$ git stash save "WIP: making progress on foo"
-```
-
-Start a new branch from a stash
-```
-$ git stash branch <optional stash name>
+$ git stash --all
 ```
 
-Grab a single file from a stash
+Delete last stashing and applying change
 ```
-$ git checkout <stash name> -- <filename>
+$ git stash pop
+```
+
+Delete last stash
+```
+$ git stash drop
+```
+
+Delete specific stash
+```
+$ git stash drop stash@{n}
+```
+
+Delete all stash
+```
+$ git stash clear
 ```
